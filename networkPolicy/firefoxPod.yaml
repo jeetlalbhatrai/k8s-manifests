@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: firefoxpod
+  labels:
+    app: firefox
+spec:
+  containers:
+    - name: firefoxcon
+      image: linuxserver/firefox:0.24.04
+      ports:
+        - containerPort: 3000
