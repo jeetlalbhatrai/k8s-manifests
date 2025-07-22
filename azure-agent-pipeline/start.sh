@@ -24,7 +24,7 @@ fi
 
 # docker run --rm \
 #   -e AZP_URL=https://dev.azure.com/jeetlalbhatrai \
-#   -e AZP_TOKEN=BOcL2jWXWrU8tqLhLQlz3i88Zyl4PQFnCEYpKAGorlhBkqAFJkWNJQQJ99BGACAAAAAAAAAAAAASAZDO1k7e \
+#   -e AZP_TOKEN=xxxxxxxxxxxx \
 #   -e AZP_POOL=agent-ka-jhund \
 #   -e AZP_AGENT_NAME=agent-one \
 #  azp-agent-arm64:latest
