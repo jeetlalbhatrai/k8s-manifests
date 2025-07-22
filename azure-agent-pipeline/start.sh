@@ -18,6 +18,8 @@ fi
 
 ./run.sh
 
+#curl -O https://download.agent.dev.azure.com/agent/4.258.1/vsts-agent-linux-arm64-4.258.1.tar.gz
+
 # docker build -t azp-agent-arm64 .
 
 # docker run --rm \
