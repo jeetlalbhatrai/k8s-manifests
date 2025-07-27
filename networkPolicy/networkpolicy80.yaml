@@ -1,0 +1,11 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: deny-port-80
+spec:
+  podSelector:
+    matchLabels:
+      app: nginx              # Replace with your pod label
+  policyTypes:
+  - Ingress
+  ingress: []                  # Deny all sources for port 80
